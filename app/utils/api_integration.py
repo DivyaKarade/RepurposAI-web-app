@@ -6,7 +6,7 @@ from ratelimit import limits, sleep_and_retry
 import ml_model  
 import statistics
 def fetch_target_data(compound: str) -> Dict[str, object]:
-    targets = ml_model.predict_targets(compound)
+    targets = ml_model.predict_targets(smiles=compound)
     # targets should be a dictionary, for example: {"gene": "TP53"}
     return targets 
     # return {"gene": "TP53"}
@@ -182,9 +182,10 @@ class KEGGAPIClient:
 # ------------------------------
 if __name__ == "__main__":
     ## testing
-    compound = "aspirin"
+    compound = "CC(=O)Oc1ccccc1C(=O)O " # Aspirin
     predicted_data = fetch_target_data(compound)
-    gene_symbol = predicted_data["gene"]
+    print(predicted_data)
+    gene_symbol = predicted_data[0]["gene"]
 
     print(f"Checking evidence for {gene_symbol} on Open Targets...")
     ot_client = OpenTargetsClient()
