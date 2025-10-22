@@ -1,5 +1,7 @@
 # RepurposAI - Drug & Target Discovery Studio
 
+<img src="https://github.com/jchchiu/RepurposAI-web-app/blob/main/docs/images/RepurposAI_LOGO_example.png" width="192">
+
 RepurposAI is a modular, open-source web app for drug repurposing and target discovery.  
 It integrates ML, cheminformatics, and the Open Targets Platform.
 
@@ -40,5 +42,3 @@ RepurposAI/
 - Commit your work regularly and create issues/sub-issues for new features or bugs.  
 - Tag issues with relevant labels: `backend`, `frontend`, `api`, `ml`, `docs`, `streamlit`, `rdkit`.
 
-### Example logo
-<img src="https://github.com/jchchiu/RepurposAI-web-app/blob/main/docs/images/RepurposAI_LOGO_example.png" width="192">
