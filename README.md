@@ -11,7 +11,7 @@ It integrates ML, cheminformatics, and the Open Targets Platform.
 2. Run the Streamlit app: `streamlit run app/main.py`
 3. Explore modules: similarity search, target prediction, pathway mapping
 
-Here’s a suggested project structure:
+Here’s the project structure:
 ```
 RepurposAI/
 ├── README.md
