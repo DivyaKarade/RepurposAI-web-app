@@ -1,9 +1,11 @@
-# RepurposAI - Drug & Target Discovery Studio
+# RepurposAI - Drug & Target Discovery Studio (Open Targets Hackathon 2025)
 
 <img src="https://github.com/jchchiu/RepurposAI-web-app/blob/main/docs/images/RepurposAI_LOGO_example.png" width="192">
 
 RepurposAI is a modular, open-source web app for drug repurposing and target discovery.  
 It integrates ML, cheminformatics, and the Open Targets Platform.
+
+Hackathon issue: [Open Targets Hackathon — Project #5](https://github.com/opentargets/hackathon-tasks/issues/5)
 
 ## Getting Started
 
@@ -41,4 +43,16 @@ RepurposAI/
 - Start building Streamlit pages in `/app/main.py` and `/app/dashboard.py`.  
 - Commit your work regularly and create issues/sub-issues for new features or bugs.  
 - Tag issues with relevant labels: `backend`, `frontend`, `api`, `ml`, `docs`, `streamlit`, `rdkit`.
+
+## 🔖 License
+
+This project is released under the **Apache 2.0 License**, in line with the Open Targets Hackathon requirements.
+
+---
+
+## 🏁 Acknowledgements
+
+Developed by contributors for the **Open Targets Hackathon 2025**.
+
+Thanks to the Open Targets team and all hackathon participants for their collaboration and data infrastructure.
 
